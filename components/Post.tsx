@@ -2,13 +2,16 @@ import React from "react";
 import Router from "next/router";
 import ReactMarkdown from "react-markdown";
 
+export type AuthorProps = {
+  id: string;
+  name: string;
+  email: string;
+} | null;
+
 export type PostProps = {
   id: string;
   title: string;
-  author: {
-    name: string;
-    email: string;
-  } | null;
+  author: AuthorProps
   content: string;
   published: boolean;
 };
