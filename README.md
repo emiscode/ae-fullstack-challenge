@@ -12,3 +12,5 @@ This is the starter project for the fullstack tutorial with Next.js and Prisma. 
   - add to the schema
   - add to the form
   - add to the post component
+
+build
